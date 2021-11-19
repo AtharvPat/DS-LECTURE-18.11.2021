@@ -6,7 +6,6 @@
 using namespace std;
 void bubbleSort(int *input, int size)
 {
-	int end = size;
 
 	for (int i = 0; i < size - 2; i++)
 	{
@@ -20,7 +19,7 @@ void bubbleSort(int *input, int size)
 			}
 			
 		}
-		end--;
+		
 	}
 }
 int main()
